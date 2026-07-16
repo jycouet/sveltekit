@@ -6,7 +6,11 @@
 ## Usage
 
 ```shell
-npx sv add @msw
+# in an existing sveltekit project
+npx sv add @msw/sveltekit
+
+# create a new project with msw
+npx sv create --add @msw/sveltekit
 ```
 
 ## What you get
